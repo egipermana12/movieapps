@@ -1,0 +1,9 @@
+@layer components {
+    .header {
+        @apply sticky top-0 z-50 flex w-full lg:bg-blue-10 bg-blue-50;
+
+        .header-wrapper {
+            @apply flex flex-grow items-center lg:bg-blue-10 bg-blue-50 dark:bg-zinc-750 justify-between py-4 px-4 md:px-6 2xl:px-11;
+        }
+    }
+}
